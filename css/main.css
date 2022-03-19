@@ -1,0 +1,320 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/vector-fondo.webp");
+    background-size: cover;
+    margin: 0;
+}
+
+/* HEADER */
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: rgba(255, 255, 255, .4);
+
+}
+
+.header-1 {
+    margin: 10px;
+}
+
+.header-logo {
+    font-weight: bold;
+    font-size: 2rem;
+    color: blue;
+}
+    
+.header-nav > a {
+    margin: 0 17px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.boton-azul-fuerte {
+    border-radius: 5px;
+    border: none;
+    padding: 18px;
+    margin: 0 17px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    box-shadow: 0 1px 1px 0 #333, 0 1px 12px 0 #333;
+}
+
+.boton-azul-claro {
+    border-radius: 5px;
+    border: none;
+    padding: 18px;
+    margin: 0 17px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    box-shadow: 0 1px 1px 0 #333, 0 1px 12px 0 #333;
+}
+
+
+/*FILA 1*/
+
+.fila1 {
+    height: 839px;
+    display: inline-flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.fila1-item {
+    margin: 0px;
+}
+
+.fila1-item-1 {
+    flex-grow: 1;
+    width: 50%;
+    flex-basis: 0;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5%;
+}
+
+.fila1-item-1 > h1 {
+    font-size: 4.3rem;
+    color: darkblue;
+}
+
+.fila1-item-1 > h4 {
+    display: inline;
+    margin-left: 5px;
+    color: darkblue;
+    font-size: 1.2rem;
+}
+
+.fila1-item-1 > h2.texto-button-h2 {
+    display: inline;
+    margin-left: 5px;
+    color: darkblue;
+    font-size: 1.8rem;
+}
+
+.fila1-item-1 > p {
+    font-size: 1.7rem;
+    color: darkblue;
+}
+
+.button-icon {
+    background-color: #fff9e4;
+    border: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.button-icon-azul {
+    background-color: #eff4ff;
+    border: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.button-icon > span {
+    color: #ffd012;
+   
+}
+
+.button-icon-azul > span {
+    color: #3656d4;
+   
+}
+
+.fila1-item-2 {
+    flex-grow: 1;
+    width: 50%;
+    flex-basis: 0;
+}
+
+.fila1-over {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 68%;
+    height: 180px;
+    position: absolute;
+    top: 640px;
+    left: 77px;
+    background-color: rgba(255, 255, 255, .95);
+    border-radius: 11px;
+}
+
+.fila1-over-item-1 {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-left: 4.2rem;
+}
+
+.fila1-over-item-2 {
+    flex-grow: 1;
+    flex-basis: 0;
+
+}
+
+.fila1-over-item-3 {
+    flex-grow: 1;
+    flex-basis: 0;
+
+}
+
+.fila1-over-item-4 {
+    flex-grow: 1;
+    flex-basis: 0;
+
+}
+
+.fila1-over-item-1 > p.texto-button-p {
+    display: inline;
+    margin-left: 5px;
+    color: darkblue;
+    font-size: 1.5rem;
+}
+
+.fila1-over-item-1 > h2.texto-button-h2 {
+    margin-top: 5px;
+    margin-left: 57px;
+    color: darkblue;
+    font-size: 1.8rem;
+}
+
+
+
+.fila1-over-item-2 > p.texto-button-p {
+    display: inline;
+    margin-left: 5px;
+    color: darkblue;
+    font-size: 1.5rem;
+}
+
+.fila1-over-item-2 > h2.texto-button-h2 {
+    margin-top: 5px;
+    margin-left: 57px;
+    color: darkblue;
+    font-size: 1.8rem;
+}
+
+
+
+.fila1-over-item-3 > p.texto-button-p {
+    display: inline;
+    margin-left: 5px;
+    color: darkblue;
+    font-size: 1.5rem;
+}
+
+.fila1-over-item-3 > h2.texto-button-h2 {
+    margin-top: 5px;
+    margin-left: 57px;
+    color: darkblue;
+    font-size: 1.8rem;
+}
+
+/* Estilo boton submit */
+.fila1-over-item-4 > p.texto-button-p {
+    display: inline;
+    margin-left: 5px;
+    color: darkblue;
+    font-size: 1.5rem;
+}
+
+.fila1-over-item-4 > h2.texto-button-h2 {
+    margin-top: 5px;
+    margin-left: 57px;
+    color: darkblue;
+    font-size: 1.8rem;
+}
+
+.banner-marcas {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    justify-content: center;    
+    align-items: center;
+    background-color: white;
+}
+
+
+/* FILA 2 - por que me deberia de vacunar*/
+.fila2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: white;
+}
+
+.fila2-item {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5%;
+}
+
+.fila2-item-titulo > h1 {
+    font-size: 4rem;
+    color: darkblue;
+}
+
+.fila2-item-p {
+    font-size: 1.7rem;
+    color: darkblue;
+}
+
+
+/* FILA 3 4 elementos que son las razones de por que te debes de vacunar */
+.fila3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    background-color: white;
+}
+
+.fila3-item {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.fila3-item-icon > span {
+    font-size: 2.5rem;
+}
+
+.fila3-item-titulo {
+    font-size: 1.7rem;
+    color: darkblue;
+}
+
+.fila3-item-p {
+    font-size: 1.2rem;
+    color: darkblue;
+}
+
+
+
+
+
+
